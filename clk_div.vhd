@@ -3,7 +3,6 @@ USE ieee.std_logic_1164.all;
 USE ieee.numeric_std.all;
 USE ieee.math_real.all;
 
-
 entity clk_div is
 	generic(clk_in_freq : natural; --input
 			  clk_out_freq : natural); --output
